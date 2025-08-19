@@ -1,8 +1,11 @@
-"use client";
+'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 type Locale = 'tr' | 'en' | 'de';
+
+// Çok seviyeli sözlük yapısı
+type Dict = { [key: string]: string | Dict };
 
 interface LanguageContextType {
   locale: Locale;
@@ -12,64 +15,66 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-// Import all translations
+// JSON çevirileri içe aktar
 import trMessages from '../../messages/tr.json';
 import enMessages from '../../messages/en.json';
 import deMessages from '../../messages/de.json';
 
-const messages = {
-  tr: trMessages,
-  en: enMessages,
-  de: deMessages,
+// messages'i tipli hale getir (resolveJsonModule açık değilse as Dict kullanımı sorun çözür)
+const messages: Record<Locale, Dict> = {
+  tr: trMessages as Dict,
+  en: enMessages as Dict,
+  de: deMessages as Dict,
 };
 
-export function LanguageProvider({ 
-  children, 
-  initialLocale = 'tr' 
-}: { 
+// Belirtilen sözlük içinde "a.b.c" gibi bir yolu çözen yardımcı
+function resolvePath(dict: Dict, path: string): string | undefined {
+  const keys = path.split('.');
+  let value: string | Dict | undefined = dict;
+
+  for (const k of keys) {
+    if (value && typeof value === 'object' && k in (value as Record<string, unknown>)) {
+      value = (value as Dict)[k] as string | Dict | undefined;
+    } else {
+      return undefined;
+    }
+  }
+
+  return typeof value === 'string' ? value : undefined;
+}
+
+export function LanguageProvider({
+  children,
+  initialLocale = 'tr',
+}: {
   children: ReactNode;
   initialLocale?: Locale;
 }) {
   const [locale, setLocale] = useState<Locale>(initialLocale);
 
-  // Helper function to get nested translation
+  // Güvenli t() fonksiyonu: önce aktif dil, yoksa TR fallback, o da yoksa anahtarın kendisi
   const t = (key: string): string => {
-    const keys = key.split('.');
-    let value: unknown = messages[locale];
-    
-    for (const k of keys) {
-      if (value && typeof value === 'object' && k in value) {
-        value = value[k];
-      } else {
-        // Fallback to Turkish if key not found
-        value = messages.tr;
-        for (const fallbackKey of keys) {
-          if (value && typeof value === 'object' && fallbackKey in value) {
-            value = value[fallbackKey];
-          } else {
-            return key; // Return key if not found
-          }
-        }
-        break;
-      }
-    }
-    
-    return typeof value === 'string' ? value : key;
+    const fromActive = resolvePath(messages[locale], key);
+    if (fromActive !== undefined) return fromActive;
+
+    const fromTR = resolvePath(messages.tr, key);
+    if (fromTR !== undefined) return fromTR;
+
+    return key;
   };
 
-  // Update URL when locale changes
+  // Locale değişince URL'yi güncelle
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const currentPath = window.location.pathname;
       const pathSegments = currentPath.split('/');
-      
-      // Check if first segment is a locale
-      if (pathSegments[1] && ['tr', 'en', 'de'].includes(pathSegments[1])) {
+
+      if (pathSegments[1] && (['tr', 'en', 'de'] as Locale[]).includes(pathSegments[1] as Locale)) {
         pathSegments[1] = locale;
       } else {
         pathSegments.splice(1, 0, locale);
       }
-      
+
       const newPath = pathSegments.join('/');
       if (newPath !== currentPath) {
         window.history.pushState({}, '', newPath);
