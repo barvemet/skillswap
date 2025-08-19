@@ -179,7 +179,7 @@ export default function RegisterPage() {
               {t('auth.createAccount')}
             </CardTitle>
             <CardDescription className="text-gray-600">
-              SkillSwap'e katılmak için hesap oluşturun
+                             SkillSwap&apos;e katılmak için hesap oluşturun
             </CardDescription>
           </CardHeader>
           

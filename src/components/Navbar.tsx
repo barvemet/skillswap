@@ -12,7 +12,7 @@ import { useParams } from "next/navigation";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<{name?: string} | null>(null);
   const { t } = useLanguage();
   const params = useParams();
   const locale = params.locale as string || 'tr';

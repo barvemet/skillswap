@@ -35,7 +35,7 @@ export function LanguageProvider({
   // Helper function to get nested translation
   const t = (key: string): string => {
     const keys = key.split('.');
-    let value: any = messages[locale];
+    let value: unknown = messages[locale];
     
     for (const k of keys) {
       if (value && typeof value === 'object' && k in value) {
