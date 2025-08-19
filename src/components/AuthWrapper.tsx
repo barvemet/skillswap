@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useSession } from "next-auth/react";
 import { Loader2 } from "lucide-react";
+import { supabase } from "@/lib/supabase";
 
 interface AuthWrapperProps {
   children: React.ReactNode;
@@ -10,15 +10,29 @@ interface AuthWrapperProps {
 }
 
 export function AuthWrapper({ children, requireAuth = false }: AuthWrapperProps) {
-  const { status, error } = useSession();
   const [isLoading, setIsLoading] = useState(true);
+  const [session, setSession] = useState<any>(null);
+  const [error, setError] = useState<any>(null);
 
   useEffect(() => {
-    // Session loading tamamlandığında loading state'ini güncelle
-    if (status !== "loading") {
-      setIsLoading(false);
-    }
-  }, [status]);
+    // Supabase session'ı kontrol et
+    const checkSession = async () => {
+      try {
+        const { data: { session }, error } = await supabase.auth.getSession();
+        if (error) {
+          setError(error);
+        } else {
+          setSession(session);
+        }
+      } catch (err) {
+        setError(err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    checkSession();
+  }, []);
 
   // Error handling
   useEffect(() => {
@@ -50,7 +64,7 @@ export function AuthWrapper({ children, requireAuth = false }: AuthWrapperProps)
   }
 
   // Authentication gerekli ve kullanıcı giriş yapmamış
-  if (requireAuth && status === "unauthenticated") {
+  if (requireAuth && !session) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-red-50 via-white to-orange-50 flex items-center justify-center p-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-xl p-8 text-center">
