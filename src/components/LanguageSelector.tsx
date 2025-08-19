@@ -7,9 +7,9 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { useParams } from "next/navigation";
 
 const languages = [
-  { code: "tr", name: "Türkçe", flag: "🇹🇷" },
-  { code: "en", name: "English", flag: "🇺🇸" },
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
+  { code: "tr" as const, name: "Türkçe", flag: "🇹🇷" },
+  { code: "en" as const, name: "English", flag: "🇺🇸" },
+  { code: "de" as const, name: "Deutsch", flag: "🇩🇪" },
 ];
 
 export function LanguageSelector() {
