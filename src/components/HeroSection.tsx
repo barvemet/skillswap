@@ -17,7 +17,7 @@ const HeroSection = () => {
         staggerChildren: 0.2,
       },
     },
-  };
+  } as const;
 
   const itemVariants = {
     hidden: { y: 50, opacity: 0 },
@@ -29,7 +29,7 @@ const HeroSection = () => {
         ease: "easeOut",
       },
     },
-  };
+  } as const;
 
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
