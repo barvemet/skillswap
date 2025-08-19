@@ -10,7 +10,7 @@ interface AuthWrapperProps {
 }
 
 export function AuthWrapper({ children, requireAuth = false }: AuthWrapperProps) {
-  const { data: session, status, error } = useSession();
+  const { data: { session: _ }, status, error } = useSession();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

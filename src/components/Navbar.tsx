@@ -15,7 +15,7 @@ const Navbar = () => {
   const [user, setUser] = useState<{name?: string} | null>(null);
   const { t } = useLanguage();
   const params = useParams();
-  const locale = params.locale as string || 'tr';
+
 
   useEffect(() => {
     const handleScroll = () => {
