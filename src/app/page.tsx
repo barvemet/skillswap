@@ -1,6 +1,15 @@
-import { redirect } from 'next/navigation';
+import HeroSection from "@/components/HeroSection";
+import FeaturedCategories from "@/components/FeaturedCategories";
+import HowItWorks from "@/components/HowItWorks";
+import Testimonials from "@/components/Testimonials";
 
-// This page only renders when the app is built statically (output: 'export')
-export default function RootPage() {
-  redirect('/tr');
+export default function HomePage() {
+  return (
+    <main>
+      <HeroSection />
+      <FeaturedCategories />
+      <HowItWorks />
+      <Testimonials />
+    </main>
+  );
 }

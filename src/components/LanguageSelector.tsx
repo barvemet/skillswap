@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Globe, Check, ChevronDown } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { useParams } from "next/navigation";
 
 const languages = [
   { code: "tr" as const, name: "Türkçe", flag: "🇹🇷" },
@@ -15,11 +14,8 @@ const languages = [
 export function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const { locale, setLocale } = useLanguage();
-  const params = useParams();
 
-  
-  const currentLocale = params.locale as string || 'tr';
-  const currentLanguage = languages.find(lang => lang.code === currentLocale) || languages[0];
+  const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
 
   const handleLanguageChange = (langCode: 'tr' | 'en' | 'de') => {
     setLocale(langCode);
