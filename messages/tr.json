@@ -4,7 +4,8 @@
     "howItWorks": "Nasıl Çalışır",
     "blog": "Blog",
     "login": "Giriş Yap",
-    "register": "Kayıt Ol"
+    "register": "Kayıt Ol",
+    "logout": "Çıkış Yap"
   },
   "auth": {
     "firstName": "Ad",

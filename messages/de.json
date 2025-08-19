@@ -4,7 +4,8 @@
     "howItWorks": "Wie es funktioniert",
     "blog": "Blog",
     "login": "Anmelden",
-    "register": "Registrieren"
+    "register": "Registrieren",
+    "logout": "Abmelden"
   },
   "auth": {
     "firstName": "Vorname",
