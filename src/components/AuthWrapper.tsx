@@ -11,8 +11,8 @@ interface AuthWrapperProps {
 
 export function AuthWrapper({ children, requireAuth = false }: AuthWrapperProps) {
   const [isLoading, setIsLoading] = useState(true);
-  const [session, setSession] = useState<any>(null);
-  const [error, setError] = useState<any>(null);
+  const [session, setSession] = useState<unknown>(null);
+  const [error, setError] = useState<unknown>(null);
 
   useEffect(() => {
     // Supabase session'ı kontrol et
