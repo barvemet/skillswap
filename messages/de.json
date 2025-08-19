@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "categories": "Kategorien",
+    "howItWorks": "Wie es funktioniert",
+    "blog": "Blog",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "auth": {
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "showPassword": "Passwort anzeigen",
+    "hidePassword": "Passwort ausblenden",
+    "termsAccept": "Ich akzeptiere die Nutzungsbedingungen und Datenschutzrichtlinie",
+    "termsRequired": "Sie müssen die Nutzungsbedingungen akzeptieren",
+    "createAccount": "Konto erstellen",
+    "signIn": "Anmelden",
+    "signInWithGoogle": "Mit Google anmelden",
+    "signUpWithGoogle": "Mit Google registrieren",
+    "or": "oder",
+    "noAccount": "Haben Sie noch kein Konto?",
+    "hasAccount": "Haben Sie bereits ein Konto?",
+    "forgotPassword": "Passwort vergessen?",
+    "creating": "Wird erstellt...",
+    "signingIn": "Wird angemeldet...",
+    "googleSigningIn": "Wird mit Google angemeldet...",
+    "googleSigningUp": "Wird mit Google registriert..."
+  },
+  "validation": {
+    "firstNameRequired": "Vorname ist erforderlich",
+    "lastNameRequired": "Nachname ist erforderlich",
+    "emailRequired": "E-Mail ist erforderlich",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "passwordRequired": "Passwort ist erforderlich",
+    "passwordMinLength": "Passwort muss mindestens 6 Zeichen lang sein",
+    "confirmPasswordRequired": "Passwortbestätigung ist erforderlich",
+    "passwordsNotMatch": "Passwörter stimmen nicht überein",
+    "termsRequired": "Sie müssen die Nutzungsbedingungen akzeptieren"
+  },
+  "placeholders": {
+    "firstName": "Ihr Vorname",
+    "lastName": "Ihr Nachname",
+    "email": "beispiel@email.com",
+    "password": "Mindestens 6 Zeichen",
+    "confirmPassword": "Bestätigen Sie Ihr Passwort"
+  },
+  "hero": {
+    "title": "Die Fähigkeit, die du lernen möchtest,",
+    "titleHighlight": "Ist in der Fähigkeit versteckt, die du bereits hast",
+    "subtitle": "SkillSwap ist eine vertrauenswürdige Community-Plattform, die es dir ermöglicht, deine Traumfähigkeiten kostenlos zu erlernen, während du dein Wissen teilst.",
+    "ctaPrimary": "Jetzt entdecken",
+    "ctaSecondary": "Wie es funktioniert",
+    "stats": {
+      "users": "Aktive Nutzer",
+      "skills": "Verschiedene Fähigkeiten",
+      "satisfaction": "Zufriedenheitsrate"
+    }
+  },
+  "howItWorks": {
+    "title": "Wie es",
+    "titleHighlight": "funktioniert?",
+    "subtitle": "Beginne den Fähigkeitenaustausch in nur 3 einfachen Schritten und erlange neue Talente, während du anderen hilfst.",
+    "steps": {
+      "step1": {
+        "title": "Erstelle dein Profil",
+        "description": "Füge die Fähigkeiten hinzu, die du lehren kannst und lernen möchtest."
+      },
+      "step2": {
+        "title": "Finde dein Match",
+        "description": "Finde die passendste Person mit KI-gestützter Suche."
+      },
+      "step3": {
+        "title": "Tausche und lerne",
+        "description": "Plane Zeit auf unserer sicheren Plattform und beginne zu lernen."
+      }
+    },
+    "securityTitle": "Sicher und einfach",
+    "securityDescription": "Alle Matches durchlaufen Sicherheitskontrollen, Zahlungen werden von unserer Plattform geschützt und wir unterstützen dich bei jedem Schritt."
+  },
+  "categories": {
+    "title": "Beliebte",
+    "titleHighlight": "Kategorien",
+    "subtitle": "Egal in welchem Bereich du talentiert bist, du kannst dich mit der Fähigkeit verbinden, die du lernen möchtest, und deinen Tausch durchführen.",
+    "items": {
+      "music": {
+        "title": "Musik",
+        "description": "Musikinstrumente lernen oder lehren",
+        "count": "1.200+ Fähigkeiten"
+      },
+      "technology": {
+        "title": "Technologie",
+        "description": "Softwareentwicklung und IT-Fähigkeiten",
+        "count": "2.800+ Fähigkeiten"
+      },
+      "language": {
+        "title": "Fremdsprachen",
+        "description": "Weltsprachen lernen und lehren",
+        "count": "900+ Fähigkeiten"
+      },
+      "design": {
+        "title": "Design",
+        "description": "Grafikdesign und Kunstfähigkeiten",
+        "count": "1.500+ Fähigkeiten"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Digitales Marketing und Verkaufstechniken",
+        "count": "800+ Fähigkeiten"
+      },
+      "personal": {
+        "title": "Persönlichkeitsentwicklung",
+        "description": "Lebenskompetenzen und Motivation",
+        "count": "650+ Fähigkeiten"
+      },
+      "photography": {
+        "title": "Fotografie",
+        "description": "Fotografieren und Bildbearbeitung",
+        "count": "450+ Fähigkeiten"
+      },
+      "education": {
+        "title": "Bildung",
+        "description": "Akademische Lektionen und Unterricht",
+        "count": "1.100+ Fähigkeiten"
+      }
+    },
+    "ctaTitle": "Findest du die gesuchte Kategorie nicht?",
+    "ctaDescription": "SkillSwap hat Tausende von Fähigkeiten in über 50 verschiedenen Kategorien. Beginne jetzt zu erkunden und füge deine eigene Fähigkeit hinzu!",
+    "ctaButton": "Alle Kategorien anzeigen"
+  },
+  "testimonials": {
+    "title": "Tausende von Nutzern",
+    "titleHighlight": "Können nicht falsch liegen",
+    "subtitle": "Höre echte Erfahrungen aus unserer SkillSwap-Community und werde Teil dieser Erfolgsgeschichten.",
+    "stats": {
+      "happyUsers": "Zufriedene Nutzer",
+      "successfulSwaps": "Erfolgreiche Tausche",
+      "averageRating": "Durchschnittsbewertung"
+    },
+    "skillLabels": {
+      "taught": "Gelehrt:",
+      "learned": "Gelernt:"
+    },
+    "users": {
+      "ayse": {
+        "name": "Ayşe Demir",
+        "title": "Grafikdesignerin",
+        "text": "Dank SkillSwap habe ich Englisch gelernt, während ich mein Grafikdesign-Wissen geteilt habe. Fantastische Erfahrung! Ich habe sowohl gelernt als auch gelehrt.",
+        "skillGiven": "Grafikdesign",
+        "skillReceived": "Englisch",
+        "duration": "3 Monate"
+      },
+      "mehmet": {
+        "name": "Mehmet Kaya",
+        "title": "Softwareentwickler",
+        "text": "Ich habe Gitarre gelernt, während ich React unterrichtet habe. Die Plattform ist sehr sicher und benutzerfreundlich. Ich empfehle sie definitiv!",
+        "skillGiven": "React & JavaScript",
+        "skillReceived": "Gitarre",
+        "duration": "4 Monate"
+      },
+      "zeynep": {
+        "name": "Zeynep Özkan",
+        "title": "Marketing-Spezialistin",
+        "text": "Ich habe Französisch gelernt, indem ich mein digitales Marketing-Wissen geteilt habe. Die Community ist sehr unterstützend und motivierend.",
+        "skillGiven": "Digitales Marketing",
+        "skillReceived": "Französisch",
+        "duration": "5 Monate"
+      },
+      "can": {
+        "name": "Can Yılmaz",
+        "title": "Musiklehrer",
+        "text": "Ich habe Webdesign gelernt, während ich Klavier unterrichtet habe. SkillSwaps Matching-System ist wirklich erfolgreich!",
+        "skillGiven": "Klavier",
+        "skillReceived": "Webdesign",
+        "duration": "6 Monate"
+      },
+      "elif": {
+        "name": "Elif Çelik",
+        "title": "Fotografin",
+        "text": "Ich habe Italienisch gelernt, indem ich meine Fotografietechniken geteilt habe. Ich habe sowohl neue Freunde gefunden als auch die Sprache sprechen können, von der ich geträumt habe.",
+        "skillGiven": "Fotografie",
+        "skillReceived": "Italienisch",
+        "duration": "4 Monate"
+      }
+    }
+  },
+  "footer": {
+    "newsletterTitle": "Verpasse keine neuen Möglichkeiten!",
+    "newsletterDescription": "Abonniere unseren wöchentlichen Newsletter und bleibe über die neuesten Fähigkeitsmöglichkeiten und Plattform-Updates informiert.",
+    "newsletterPlaceholder": "Deine E-Mail-Adresse",
+    "newsletterButton": "Abonnieren",
+    "company": "Unternehmen",
+    "product": "Produkt",
+    "support": "Support",
+    "legal": "Rechtliches",
+    "copyright": "Alle Rechte vorbehalten.",
+    "location": "Deutschland",
+    "language": "Deutsch",
+    "currency": "TRY",
+    "links": {
+      "about": "Über uns",
+      "howItWorks": "Wie es funktioniert",
+      "security": "Sicherheit",
+      "careers": "Karriere",
+      "press": "Pressekit",
+      "categories": "Kategorien",
+      "search": "Fähigkeitssuche",
+      "mobile": "Mobile App",
+      "api": "API",
+      "features": "Funktionen",
+      "help": "Hilfecenter",
+      "contact": "Kontakt",
+      "forum": "Community-Forum",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "cookies": "Cookie-Richtlinie",
+      "kvkk": "KVKK"
+    }
+  }
+}

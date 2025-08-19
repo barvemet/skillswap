@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "categories": "Categories",
+    "howItWorks": "How It Works",
+    "blog": "Blog",
+    "login": "Sign In",
+    "register": "Sign Up"
+  },
+  "auth": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "showPassword": "Show Password",
+    "hidePassword": "Hide Password",
+    "termsAccept": "I accept the terms of service and privacy policy",
+    "termsRequired": "You must accept the terms of service",
+    "createAccount": "Create Account",
+    "signIn": "Sign In",
+    "signInWithGoogle": "Sign In with Google",
+    "signUpWithGoogle": "Sign Up with Google",
+    "or": "or",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "forgotPassword": "Forgot Password?",
+    "creating": "Creating...",
+    "signingIn": "Signing in...",
+    "googleSigningIn": "Signing in with Google...",
+    "googleSigningUp": "Signing up with Google..."
+  },
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Password confirmation is required",
+    "passwordsNotMatch": "Passwords do not match",
+    "termsRequired": "You must accept the terms of service"
+  },
+  "placeholders": {
+    "firstName": "Your first name",
+    "lastName": "Your last name",
+    "email": "example@email.com",
+    "password": "At least 6 characters",
+    "confirmPassword": "Confirm your password"
+  },
+  "hero": {
+    "title": "The Skill You Want to Learn,",
+    "titleHighlight": "Is Hidden in the Skill You Already Have",
+    "subtitle": "SkillSwap is a trusted community platform that lets you learn your dream skills for free while teaching what you know.",
+    "ctaPrimary": "Explore Now",
+    "ctaSecondary": "How It Works",
+    "stats": {
+      "users": "Active Users",
+      "skills": "Different Skills",
+      "satisfaction": "Satisfaction Rate"
+    }
+  },
+  "howItWorks": {
+    "title": "How It",
+    "titleHighlight": "Works?",
+    "subtitle": "Start skill swapping in just 3 simple steps and gain new talents while helping others.",
+    "steps": {
+      "step1": {
+        "title": "Create Your Profile",
+        "description": "Add the skills you can teach and want to learn."
+      },
+      "step2": {
+        "title": "Find Your Match",
+        "description": "Find the most suitable person with AI-powered search."
+      },
+      "step3": {
+        "title": "Swap and Learn",
+        "description": "Schedule time on our secure platform and start learning."
+      }
+    },
+    "securityTitle": "Safe and Easy",
+    "securityDescription": "All matches go through security checks, payments are protected by our platform, and we support you every step of the way."
+  },
+  "categories": {
+    "title": "Featured",
+    "titleHighlight": "Categories",
+    "subtitle": "No matter what field you're talented in, you can match with the skill you want to learn and make your swap.",
+    "items": {
+      "music": {
+        "title": "Music",
+        "description": "Learn or teach musical instruments",
+        "count": "1,200+ skills"
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "Software development and IT skills",
+        "count": "2,800+ skills"
+      },
+      "language": {
+        "title": "Foreign Languages",
+        "description": "Learn and teach world languages",
+        "count": "900+ skills"
+      },
+      "design": {
+        "title": "Design",
+        "description": "Graphic design and art skills",
+        "count": "1,500+ skills"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "Digital marketing and sales techniques",
+        "count": "800+ skills"
+      },
+      "personal": {
+        "title": "Personal Development",
+        "description": "Life skills and motivation",
+        "count": "650+ skills"
+      },
+      "photography": {
+        "title": "Photography",
+        "description": "Photo shooting and editing",
+        "count": "450+ skills"
+      },
+      "education": {
+        "title": "Education",
+        "description": "Academic lessons and teaching",
+        "count": "1,100+ skills"
+      }
+    },
+    "ctaTitle": "Can't find the category you're looking for?",
+    "ctaDescription": "SkillSwap has thousands of skills in 50+ different categories. Start exploring now and add your own skill!",
+    "ctaButton": "View All Categories"
+  },
+  "testimonials": {
+    "title": "Thousands of Users",
+    "titleHighlight": "Can't Be Wrong",
+    "subtitle": "Listen to real experiences from our SkillSwap community and become part of these success stories.",
+    "stats": {
+      "happyUsers": "Happy Users",
+      "successfulSwaps": "Successful Swaps",
+      "averageRating": "Average Rating"
+    },
+    "skillLabels": {
+      "taught": "Taught:",
+      "learned": "Learned:"
+    },
+    "users": {
+      "ayse": {
+        "name": "Ayşe Demir",
+        "title": "Graphic Designer",
+        "text": "Thanks to SkillSwap, I learned English while sharing my graphic design knowledge. Amazing experience! I both learned and taught.",
+        "skillGiven": "Graphic Design",
+        "skillReceived": "English",
+        "duration": "3 months"
+      },
+      "mehmet": {
+        "name": "Mehmet Kaya",
+        "title": "Software Developer",
+        "text": "I learned guitar while teaching React. The platform is very secure and user-friendly. I definitely recommend it!",
+        "skillGiven": "React & JavaScript",
+        "skillReceived": "Guitar",
+        "duration": "4 months"
+      },
+      "zeynep": {
+        "name": "Zeynep Özkan",
+        "title": "Marketing Specialist",
+        "text": "I learned French by sharing my digital marketing knowledge. The community is very supportive and motivational.",
+        "skillGiven": "Digital Marketing",
+        "skillReceived": "French",
+        "duration": "5 months"
+      },
+      "can": {
+        "name": "Can Yılmaz",
+        "title": "Music Teacher",
+        "text": "I learned web design while teaching piano. SkillSwap's matching system is really successful!",
+        "skillGiven": "Piano",
+        "skillReceived": "Web Design",
+        "duration": "6 months"
+      },
+      "elif": {
+        "name": "Elif Çelik",
+        "title": "Photographer",
+        "text": "I learned Italian by sharing my photography techniques. I both made new friends and became able to speak the language I dreamed of.",
+        "skillGiven": "Photography",
+        "skillReceived": "Italian",
+        "duration": "4 months"
+      }
+    }
+  },
+  "footer": {
+    "newsletterTitle": "Don't miss new opportunities!",
+    "newsletterDescription": "Subscribe to our weekly newsletter and stay informed about the latest skill opportunities and platform updates.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterButton": "Subscribe",
+    "company": "Company",
+    "product": "Product",
+    "support": "Support",
+    "legal": "Legal",
+    "copyright": "All rights reserved.",
+    "location": "Turkey",
+    "language": "English",
+    "currency": "TRY",
+    "links": {
+      "about": "About Us",
+      "howItWorks": "How It Works",
+      "security": "Security",
+      "careers": "Careers",
+      "press": "Press Kit",
+      "categories": "Categories",
+      "search": "Skill Search",
+      "mobile": "Mobile App",
+      "api": "API",
+      "features": "Features",
+      "help": "Help Center",
+      "contact": "Contact",
+      "forum": "Community Forum",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "kvkk": "KVKK"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "categories": "Kategoriler",
+    "howItWorks": "Nasıl Çalışır",
+    "blog": "Blog",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol"
+  },
+  "auth": {
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifre Tekrar",
+    "showPassword": "Şifreyi Göster",
+    "hidePassword": "Şifreyi Gizle",
+    "termsAccept": "Kullanıcı sözleşmesini ve gizlilik politikasını kabul ediyorum",
+    "termsRequired": "Kullanıcı sözleşmesini kabul etmelisiniz",
+    "createAccount": "Hesap Oluştur",
+    "signIn": "Giriş Yap",
+    "signInWithGoogle": "Google ile Giriş Yap",
+    "signUpWithGoogle": "Google ile Kayıt Ol",
+    "or": "veya",
+    "noAccount": "Hesabınız yok mu?",
+    "hasAccount": "Zaten hesabınız var mı?",
+    "forgotPassword": "Şifremi Unuttum",
+    "creating": "Oluşturuluyor...",
+    "signingIn": "Giriş yapılıyor...",
+    "googleSigningIn": "Google ile giriş yapılıyor...",
+    "googleSigningUp": "Google ile kayıt olunuyor..."
+  },
+  "validation": {
+    "firstNameRequired": "Ad alanı zorunludur",
+    "lastNameRequired": "Soyad alanı zorunludur",
+    "emailRequired": "E-posta alanı zorunludur",
+    "emailInvalid": "Geçerli bir e-posta adresi girin",
+    "passwordRequired": "Şifre alanı zorunludur",
+    "passwordMinLength": "Şifre en az 6 karakter olmalıdır",
+    "confirmPasswordRequired": "Şifre tekrar alanı zorunludur",
+    "passwordsNotMatch": "Şifreler eşleşmiyor",
+    "termsRequired": "Kullanıcı sözleşmesini kabul etmelisiniz"
+  },
+  "placeholders": {
+    "firstName": "Adınız",
+    "lastName": "Soyadınız",
+    "email": "ornek@email.com",
+    "password": "En az 6 karakter",
+    "confirmPassword": "Şifrenizi tekrar girin"
+  },
+  "hero": {
+    "title": "Öğrenmek İstediğin Beceri,",
+    "titleHighlight": "Zaten Sahip Olduğun Beceride Saklı",
+    "subtitle": "SkillSwap, bildiklerinizi öğretirken, hayalinizdeki yetenekleri para harcamadan öğrenmenizi sağlayan bir topluluktur.",
+    "ctaPrimary": "Hemen Keşfet",
+    "ctaSecondary": "Nasıl Çalışır?",
+    "stats": {
+      "users": "Aktif Kullanıcı",
+      "skills": "Farklı Beceri",
+      "satisfaction": "Memnuniyet Oranı"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl",
+    "titleHighlight": "Çalışır?",
+    "subtitle": "Sadece 3 basit adımda beceri takasına başlayın ve yeni yetenekler edinirken başkalarına da yardım edin.",
+    "steps": {
+      "step1": {
+        "title": "Profilini Oluştur",
+        "description": "Öğretebileceğin ve öğrenmek istediğin becerileri ekle."
+      },
+      "step2": {
+        "title": "Eşleşmeni Bul",
+        "description": "Yapay zeka destekli arama ile sana en uygun kişiyi bul."
+      },
+      "step3": {
+        "title": "Takas Yap ve Öğren",
+        "description": "Güvenli platformumuzda zaman planla ve öğrenmeye başla."
+      }
+    },
+    "securityTitle": "Güvenli ve Kolay",
+    "securityDescription": "Tüm eşleşmeler güvenlik kontrollerinden geçer, ödemeler platformumuz tarafından korunur ve her adımda size destek sağlarız."
+  },
+  "categories": {
+    "title": "Öne Çıkan",
+    "titleHighlight": "Kategoriler",
+    "subtitle": "Hangi alanda yetenekli olursanız olun, öğrenmek istediğiniz beceriyle eşleşebilir ve takasınızı gerçekleştirebilirsiniz.",
+    "items": {
+      "music": {
+        "title": "Müzik",
+        "description": "Enstrüman çalmayı öğren veya öğret",
+        "count": "1,200+ beceri"
+      },
+      "technology": {
+        "title": "Teknoloji",
+        "description": "Yazılım geliştirme ve IT becerileri",
+        "count": "2,800+ beceri"
+      },
+      "language": {
+        "title": "Yabancı Dil",
+        "description": "Dünya dillerini öğren ve öğret",
+        "count": "900+ beceri"
+      },
+      "design": {
+        "title": "Tasarım",
+        "description": "Grafik tasarım ve sanat becerileri",
+        "count": "1,500+ beceri"
+      },
+      "marketing": {
+        "title": "Pazarlama",
+        "description": "Dijital pazarlama ve satış teknikleri",
+        "count": "800+ beceri"
+      },
+      "personal": {
+        "title": "Kişisel Gelişim",
+        "description": "Yaşam becerileri ve motivasyon",
+        "count": "650+ beceri"
+      },
+      "photography": {
+        "title": "Fotoğrafçılık",
+        "description": "Fotoğraf çekimi ve düzenleme",
+        "count": "450+ beceri"
+      },
+      "education": {
+        "title": "Eğitim",
+        "description": "Akademik dersler ve öğretim",
+        "count": "1,100+ beceri"
+      }
+    },
+    "ctaTitle": "Aradığın kategoriyi bulamadın mı?",
+    "ctaDescription": "SkillSwap'te 50+ farklı kategoride binlerce beceri bulunuyor. Hemen keşfetmeye başla ve kendi becerini de ekle!",
+    "ctaButton": "Tüm Kategorileri Gör"
+  },
+  "testimonials": {
+    "title": "Binlerce Kullanıcı",
+    "titleHighlight": "Yanılıyor Olamaz",
+    "subtitle": "SkillSwap topluluğumuzun gerçek deneyimlerini dinleyin ve siz de bu başarı hikayelerinin bir parçası olun.",
+    "stats": {
+      "happyUsers": "Mutlu Kullanıcı",
+      "successfulSwaps": "Başarılı Takas",
+      "averageRating": "Ortalama Puan"
+    },
+    "skillLabels": {
+      "taught": "Öğretti:",
+      "learned": "Öğrendi:"
+    },
+    "users": {
+      "ayse": {
+        "name": "Ayşe Demir",
+        "title": "Grafik Tasarımcı",
+        "text": "SkillSwap sayesinde İngilizce öğrenirken aynı zamanda grafik tasarım bilgimi paylaştım. Harika bir deneyim! Hem öğrendim hem de öğrettim.",
+        "skillGiven": "Grafik Tasarım",
+        "skillReceived": "İngilizce",
+        "duration": "3 ay"
+      },
+      "mehmet": {
+        "name": "Mehmet Kaya",
+        "title": "Yazılım Geliştirici",
+        "text": "React öğretirken gitar çalmayı öğrendim. Platform çok güvenli ve kullanıcı dostu. Kesinlikle tavsiye ediyorum!",
+        "skillGiven": "React & JavaScript",
+        "skillReceived": "Gitar",
+        "duration": "4 ay"
+      },
+      "zeynep": {
+        "name": "Zeynep Özkan",
+        "title": "Pazarlama Uzmanı",
+        "text": "Dijital pazarlama bilgimi paylaşarak Fransızca öğrendim. Topluluk çok destekleyici ve motivasyonel.",
+        "skillGiven": "Dijital Pazarlama",
+        "skillReceived": "Fransızca",
+        "duration": "5 ay"
+      },
+      "can": {
+        "name": "Can Yılmaz",
+        "title": "Müzik Öğretmeni",
+        "text": "Piyano öğretirken web tasarımı öğrendim. SkillSwap'in eşleştirme sistemi gerçekten çok başarılı!",
+        "skillGiven": "Piyano",
+        "skillReceived": "Web Tasarımı",
+        "duration": "6 ay"
+      },
+      "elif": {
+        "name": "Elif Çelik",
+        "title": "Fotoğrafçı",
+        "text": "Fotoğrafçılık tekniklerimi paylaşarak İtalyanca öğrendim. Hem yeni arkadaşlar edindim hem de hayal ettiğim dili konuşabilir hale geldim.",
+        "skillGiven": "Fotoğrafçılık",
+        "skillReceived": "İtalyanca",
+        "duration": "4 ay"
+      }
+    }
+  },
+  "footer": {
+    "newsletterTitle": "Yeni fırsatları kaçırma!",
+    "newsletterDescription": "Haftalık bültenimize abone ol, en yeni beceri fırsatlarından ve platform güncellemelerinden haberdar ol.",
+    "newsletterPlaceholder": "E-posta adresiniz",
+    "newsletterButton": "Abone Ol",
+    "company": "Şirket",
+    "product": "Ürün",
+    "support": "Destek",
+    "legal": "Yasal",
+    "copyright": "Tüm hakları saklıdır.",
+    "location": "Türkiye",
+    "language": "Türkçe",
+    "currency": "TL",
+    "links": {
+      "about": "Hakkımızda",
+      "howItWorks": "Nasıl Çalışır?",
+      "security": "Güvenlik",
+      "careers": "Kariyer",
+      "press": "Basın Kiti",
+      "categories": "Kategoriler",
+      "search": "Beceri Arama",
+      "mobile": "Mobil Uygulama",
+      "api": "API",
+      "features": "Özellikler",
+      "help": "Yardım Merkezi",
+      "contact": "İletişim",
+      "forum": "Topluluk Forumu",
+      "blog": "Blog",
+      "faq": "SSS",
+      "terms": "Kullanım Koşulları",
+      "privacy": "Gizlilik Politikası",
+      "cookies": "Çerez Politikası",
+      "kvkk": "KVKK"
+    }
+  }
+}
