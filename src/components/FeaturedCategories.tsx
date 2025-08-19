@@ -105,7 +105,7 @@ const FeaturedCategories = () => {
         staggerChildren: 0.1,
       },
     },
-  };
+  } as const;
 
   const itemVariants = {
     hidden: { y: 50, opacity: 0 },
@@ -117,7 +117,7 @@ const FeaturedCategories = () => {
         ease: "easeOut",
       },
     },
-  };
+  } as const;
 
   return (
     <section id="categories" className="py-20 bg-gray-50 dark:bg-gray-800" ref={ref}>
