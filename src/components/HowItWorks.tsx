@@ -41,7 +41,7 @@ const HowItWorks = () => {
         staggerChildren: 0.3,
       },
     },
-  };
+  } as const;
 
   const itemVariants = {
     hidden: { y: 50, opacity: 0 },
@@ -53,7 +53,7 @@ const HowItWorks = () => {
         ease: "easeOut",
       },
     },
-  };
+  } as const;
 
   return (
     <section id="how-it-works" className="py-20 bg-white dark:bg-gray-900" ref={ref}>
